@@ -2,10 +2,14 @@
 
 <html>
     <head>
+		<script src="jquery-1.11.0.js"></script>
+		<script src="atm.js" type="text/javascript"></script>
     </head>
     <body>
-        
-        
-    
+		   <label for="atm">Enter amount to withdraw:</label><br />
+		   <input name="atm" id="atm" type="text" required="required"/><br /><br />
+		   <label for="balance">Enter inital balance:</label><br />
+		   <input name="balance" id="balance" type="text" required="required"/>
+		   <input  type="submit" onclick="getWithdrawl()" value="Submit WithDrawl"/> 
     </body>
 </html>
